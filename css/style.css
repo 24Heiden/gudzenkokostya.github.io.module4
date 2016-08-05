@@ -1,0 +1,141 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body{
+	width: 800px;
+	height: 1200px;
+
+}
+header{
+	margin-bottom: -1px;
+}
+.contacts{
+	list-style-type: none;
+	float: right;
+	color: #00BFFF;
+	margin-top:20px;
+
+}
+.contacts li{
+	padding-top: 5px;
+}
+.asia-holiday{
+	width: 400px;
+	height: 260px;
+}
+.country-menu {
+	float: right;
+	height: 70px;
+    font-size:0; 
+    line-height:0; 
+    letter-spacing:-1px; 
+}
+.country{
+	height: 100%;
+	width: 55px;
+    margin: auto;
+    text-align: center;
+    font-size:10px;
+      line-height:normal;
+    letter-spacing:normal;
+      display:inline-block;
+         
+        padding: 0px 0px 0px 5px;
+}
+
+.menu {
+    display: block;
+    width: 800px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #363636;
+}
+.menu:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+.menu > li {
+	padding-left:10px;
+    float: left;
+    position: relative;
+}
+.menu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #363636;
+    text-decoration: none;
+}
+.menu > li > a:hover {
+    background-color: #363636;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 150px;
+    top: 37px;
+    left: 0;
+    background-color: #363636;
+    border: 1px solid black;
+}
+.submenu > li {
+    display: block;
+}
+.submenu > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: #363636;
+    text-decoration: none;
+}
+.submenu > li > a:hover {
+    text-decoration: underline;
+}
+.menu > li:hover >.submenu {
+    display: block;
+}
+.fon{
+	width: 800px;
+	height: 600px;
+	background: url(../img/backfon.jpg) repeat-y;
+	float: left;
+	font-size: 12px;
+	text-align: center;
+}
+.leftcolumn{
+	width: 150px;
+	float: left;
+	
+}
+
+.centercolumn{
+	width: 550px;
+	float: left;
+	
+}
+.rightcolumn{
+	width: 200px;
+	float: right;
+	
+	
+}
+.firstline{
+	
+	padding-bottom: 8px;
+	color: DarkSlateGray;
+	font-size: 14px;
+	
+
+}
+p{
+	padding-top: 10px;
+}
+footer{
+	background-color: cyan;
+	text-align: center;
+}
